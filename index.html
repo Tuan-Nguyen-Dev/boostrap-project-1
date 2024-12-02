@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js/js.js"></script>
+
+</head>
+
+<body>
+    <!-- NAVBAR  -->
+    <header class="py-3">
+        <nav class="navbar navbar-expand-lg py-3">
+            <div class="container">
+                <a class="navbar-brand me-auto" href="#">
+                    <img src="./img/logo.svg" class="img-fluid" width="100" alt="logo" />
+                </a>
+                <div class="offcanvas offcanvas-end" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <img src="./img/logo.svg" class="img-fuild" width="100" alt="logo" />
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Feature</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Testimonial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">FAQ</a>
+                            </li>
+                        </ul>
+                        <div>
+                            <a class="btn px-3 ms-md-5 py-2 fw-medium fs-5 text-success mx-3" href="#">Login</a>
+                            <a class="btn btn-success px-3 py-2 text-light border fs-5" href="#">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a class="btn px-3 py-2 fw-medium d-none fs-5 text-success" href="#">Login</a>
+                    <a class="btn btn-success px-3 py-2 d-none text-light border fs-5" href="#">Sign up</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+
+        <section class="hero-section py-5">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-sm-12 col-md-6 py-2">
+                        <h1>
+                            Lessons and insights business <span>from 8 years</span>
+                        </h1>
+                        <p class="mt-3">Where to grow your business as a photographer: site or social media?</p>
+                        <div class="mt-5">
+                            <a class="btn btn-success px-5 py-3 border" href="#">Register</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-end">
+                        <img src="./img/Illustration.svg" alt="Lessons and insights from 8 years"
+                            class="img-fluid custom-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section class="container-heading py-5">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="mb-3 heading">Our Clients</h2>
+                <p class="text-muted desc">We have been working with some Fortune 500+ clients</p>
+            </div>
+            <div class="row justify-content-between g-5">
+                <div class="col-6 col-sm-4 col-lg-1 text-center">
+                    <img src="./img/logo1.svg" alt="Client 1" class="client-logo">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-1 text-center">
+                    <img src="./img/logo2svg.svg" alt="Client 2" class="client-logo">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-1 text-center">
+                    <img src="./img/logo3svg.svg" alt="Client 3" class="client-logo">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-1 text-center">
+                    <img src="./img/logo4.svg" alt="Client 4" class="client-logo">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-1 text-center">
+                    <img src="./img/logo5.svg" alt="Client 5" class="client-logo">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-1 text-center">
+                    <img src="./img/logo6svg.svg" alt="Client 6" class="client-logo">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-1 text-center">
+                    <img src="./img/logo7.svg" alt="Client 7" class="client-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="manager-section">
+        <div class="container">
+            <div class="text-center py-3">
+                <h2 class="heading">Manage your entire community in a single system</h2>
+                <p class="desc">Who is Nextcent suitable for?
+                </p>
+            </div>
+            <div class="row py-5 justify-content-center justify-content-md-between  align-items-center text-center">
+                <div
+                    class="col-md-4 d-flex flex-column justify-content-center align-items-center shadow px-5 mb-5 bg-body rounded container-card">
+                    <div class="icon-wrapper position-relative text-center py-2">
+                        <div class="icon-background position-absolute"></div>
+                        <img src="./img/Icon-1.svg" alt="Icon 1" class="position-relative" width="48px" height="48px">
+                    </div>
+                    <div class="text-center py-3">
+                        <h3 class="py-2 fw-bold fs-3 lh-1">Membership Organisations</h3>
+                        <p class="lh-base fs-5 desc">Our membership management software provides full automation of
+                            membership renewals and
+                            payments</p>
+                    </div>
+                </div>
+                <div
+                    class="col-md-4 d-flex flex-column justify-content-center align-items-center shadow px-5 mb-5 bg-body rounded container-card">
+                    <div class="icon-wrapper position-relative text-center py-2">
+                        <div class="icon-background position-absolute"></div>
+                        <img src="./img/Icon-2.svg" alt="Icon 1" class="position-relative" width="48px" height="48px">
+                    </div>
+                    <div class="text-center py-3">
+                        <h3 class="py-2 fw-bold fs-3 lh-1">Membership Organisations</h3>
+                        <p class="lh-base fs-5 desc">Our membership management software provides full automation of
+                            membership renewals and
+                            payments</p>
+                    </div>
+                </div>
+                <div
+                    class="col-md-4 d-flex flex-column justify-content-center align-items-center shadow px-5 mb-5 bg-body rounded container-card">
+                    <div class="icon-wrapper position-relative text-center py-2">
+                        <div class="icon-background position-absolute"></div>
+                        <img src="./img/Icon-3.svg" alt="Icon 1" class="position-relative" width="48px" height="48px">
+                    </div>
+                    <div class="text-center py-3">
+                        <h3 class="py-2 fw-bold fs-3 lh-1">Membership Organisations</h3>
+                        <p class="lh-base fs-5 desc">Our membership management software provides full automation of
+                            membership renewals and
+                            payments</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section class="section-container py-4">
+        <div class="container">
+            <div class="row d-flex justify-content-md-between justify-content-center align-items-center">
+                <div class="col-md-6 text-center">
+                    <img src="./img/Frame 35.svg" alt="" class="img-fluid py-4 img-content">
+                </div>
+                <div class="col-md-6 px-4">
+                    <h3 class="heading">The unseen of spending three years at Pixelgrade</h3>
+                    <div class="text-container" onclick="toggleExpand(this)">
+                        <p class="desc text-truncate-multiline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed sit amet justo
+                            ipsum. Sed accumsan quam vitae est varius
+                            fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique
+                            iaculis. Nullam pulvinar sit
+                            amet
+                            risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
+                            elementum pulvinar odio.</p>
+                    </div>
+
+                    <div>
+                        <a href="#!" class="btn btn-success fs-3 border py-3 px-5">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-metrics py-5">
+        <div class="container">
+            <div class="d-flex justify-content-center flex-column align-items-center">
+                <h1>Helping a local <span>business reinvent itself</span></h1>
+                <p class="text-center">We reached here with our hard work and dedication</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-6 col-sm-3 col-lg-2 text-center">
+                    <div class="align-items-center text-center">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor"
+                                class="bi bi-people" viewBox="0 0 16 16" style="color: #4CAF4F;">
+                                <path
+                                    d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="mb-0 heading">2,245,341</h4>
+                            <p class="mb-0 desc">Members</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3 col-lg-2 text-center">
+                    <div class="align-items-center text-center">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor"
+                                class="bi bi-badge-4k" viewBox="0 0 16 16" style="color: #4CAF4F;">
+                                <path
+                                    d="M4.807 5.001C4.021 6.298 3.203 7.6 2.5 8.917v.971h2.905V11h1.112V9.888h.733V8.93h-.733V5.001zm-1.23 3.93v-.032a47 47 0 0 1 1.766-3.001h.062V8.93zm9.831-3.93h-1.306L9.835 7.687h-.057V5H8.59v6h1.187V9.075l.615-.699L12.072 11H13.5l-2.232-3.415z" />
+                                <path
+                                    d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="mb-0 heading">828,867</h4>
+                            <p class="mb-0 desc">Event 4K</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3 col-lg-2 text-center">
+                    <div class="align-items-center text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 48 48" fill="none">
+                            <path
+                                d="M40 42V38C40 35.8783 39.1571 33.8434 37.6569 32.3431C36.1566 30.8429 34.1217 30 32 30H30C29.4696 30 28.9609 29.7893 28.5858 29.4142C28.2107 29.0391 28 28.5304 28 28V18C28 16.9391 27.5786 15.9217 26.8284 15.1716C26.0783 14.4214 25.0609 14 24 14C22.9391 14 21.9217 14.4214 21.1716 15.1716C20.4214 15.9217 20 16.9391 20 18V36L15.2 29.6C14.8274 29.1032 14.3443 28.7 13.7889 28.4223C13.2334 28.1446 12.621 28 12 28H11.132C9.402 28 8 29.402 8 31.132C8 31.7 8.154 32.258 8.446 32.744L14 42M24 8V6V8ZM36 20H38H36ZM10 20H12H10ZM14.686 10.686L13.272 9.272L14.686 10.686ZM33.314 10.686L34.728 9.272L33.314 10.686Z"
+                                fill="#4CAF4F" />
+                            <path
+                                d="M40 42V38C40 35.8783 39.1571 33.8434 37.6569 32.3431C36.1566 30.8429 34.1217 30 32 30H30C29.4696 30 28.9609 29.7893 28.5858 29.4142C28.2107 29.0391 28 28.5304 28 28V18C28 16.9391 27.5786 15.9217 26.8284 15.1716C26.0783 14.4214 25.0609 14 24 14V14C22.9391 14 21.9217 14.4214 21.1716 15.1716C20.4214 15.9217 20 16.9391 20 18V36L15.2 29.6C14.8274 29.1032 14.3443 28.7 13.7889 28.4223C13.2334 28.1446 12.621 28 12 28H11.132C9.402 28 8 29.402 8 31.132C8 31.7 8.154 32.258 8.446 32.744L14 42M24 8V6M36 20H38M10 20H12M14.686 10.686L13.272 9.272M33.314 10.686L34.728 9.272"
+                                stroke="#4CAF4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="mb-0 heading">46,328</h4>
+                        <p class="mb-0 desc">Clubs</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3 col-lg-2 text-center">
+                    <div class="align-items-center text-center">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 48 48"
+                                fill="none">
+                                <path
+                                    d="M5.5 16.5V17H6H42H42.5V16.5V14.25C42.5 13.1228 42.0522 12.0418 41.2552 11.2448C40.4582 10.4478 39.3772 10 38.25 10H9.75C8.62283 10 7.54183 10.4478 6.7448 11.2448C5.94777 12.0418 5.5 13.1228 5.5 14.25V16.5ZM42.5 19.5V19H42H6H5.5V19.5V33.75C5.5 34.8772 5.94777 35.9582 6.7448 36.7552C7.54183 37.5522 8.62283 38 9.75 38H38.25C39.3772 38 40.4582 37.5522 41.2552 36.7552C42.0522 35.9582 42.5 34.8772 42.5 33.75V19.5ZM3.5 14.25C3.5 12.5924 4.15848 11.0027 5.33058 9.83058C6.50268 8.65848 8.0924 8 9.75 8H38.25C39.9076 8 41.4973 8.65848 42.6694 9.83058C43.8415 11.0027 44.5 12.5924 44.5 14.25V33.75C44.5 35.4076 43.8415 36.9973 42.6694 38.1694C41.4973 39.3415 39.9076 40 38.25 40H9.75C8.0924 40 6.50268 39.3415 5.33058 38.1694C4.15848 36.9973 3.5 35.4076 3.5 33.75V14.25ZM31.5 29H36C36.2652 29 36.5196 29.1054 36.7071 29.2929C36.8946 29.4804 37 29.7348 37 30C37 30.2652 36.8946 30.5196 36.7071 30.7071C36.5196 30.8946 36.2652 31 36 31H31.5C31.2348 31 30.9804 30.8946 30.7929 30.7071C30.6054 30.5196 30.5 30.2652 30.5 30C30.5 29.7348 30.6054 29.4804 30.7929 29.2929C30.9804 29.1054 31.2348 29 31.5 29Z"
+                                    fill="#4CAF4F" stroke="#4CAF4F" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="mb-0 heading">1,926,436</h4>
+                            <p class="mb-0 desc">Payments</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-container py-4">
+        <div class="container">
+            <div class="row d-flex justify-content-md-between justify-content-center align-items-center">
+                <div class="col-md-6 text-center">
+                    <img src="./img/pana.svg" alt="" class="img-fluid py-4 img-content">
+                </div>
+                <div class="col-md-6 px-4">
+                    <h3 class="heading">How to design your site footer like we did</h3>
+                    <div class="text-container" onclick="toggleExpand(this)">
+                        <p class="desc text-truncate-multiline">Donec a eros justo. Fusce egestas tristique ultrices.
+                            Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu,
+                            at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac
+                            habitasse platea dictumst. Vivamus
+                            vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies,
+                            non aliquet urna tincidunt.
+                            Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est,
+                            finibus et nisi ac, hendrerit
+                            venenatis libero. Donec consectetur faucibus ipsum id gravida..</p>
+                    </div>
+
+                    <div>
+                        <a href="#!" class="btn btn-success fs-3 border py-3 px-5">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-about py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 py-2">
+                    <img src="./img/tesla-logo.svg" alt="" class="img-fluid img-content" />
+                </div>
+
+                <div class="col-md-8">
+                    <div class="text-container" onclick="toggleExpand(this)">
+                        <p class="desc text-truncate-multiline">Maecenas dignissim justo eget nulla rutrum molestie.
+                            Maecenas lobortis sem dui, vel
+                            rutrum risus
+                            tincidunt ullamcorper.
+                            Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut
+                            molestie arcu, at hendrerit
+                            elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus
+                            tellus
+                            sed augue ultrices, quis
+                            tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse
+                            potenti. Quisque malesuada
+                            enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur
+                            libero condimentum id.
+                            Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-success-content py-4">Tim Smith</h3>
+                    </div>
+                    <span class="text-span-content">
+                        British Dragon Boat Racing Association
+                    </span>
+                    <div class="row pt-5">
+                        <div class="col-12 d-flex flex-wrap">
+                            <img src="./img/logo1.svg" alt="Client 1" class="logo-icon">
+                            <img src="./img/logo2svg.svg" alt="Client 2" class="logo-icon">
+                            <img src="./img/logo3svg.svg" alt="Client 3" class="logo-icon">
+                            <img src="./img/logo4.svg" alt="Client 4" class="logo-icon">
+                            <img src="./img/logo5.svg" alt="Client 5" class="logo-icon">
+                            <img src="./img/logo6svg.svg" alt="Client 6" class="logo-icon">
+
+                            <div class="d-flex align-items-center py-4">
+                                <span class="fw-bold me-2 text-custommer px-3">Meet all customer</span>
+                                <img src="./img/arrow-right.svg" alt="Arrow Right" class="arrow-icon" width="20px"
+                                    height="20px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-card py-5">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="heading">Caring is the new marketing</h2>
+                <p class="centered-text">
+                    The Nexcent blog is the best place to read about the latest membership insights, trends and more.
+                    See who's joining the
+                    community, read about how our community are increasing their membership income and lot's more.
+                </p>
+            </div>
+            <div class="row pt-3">
+                <div class="col-md-4 position-relative justify-content-center align-items-center"
+                    style="margin-bottom: 150px;">
+                    <div class="image-container text-center">
+                        <img src="./img/image1.png" alt="" class="img-fluid fixed-size-img" />
+                    </div>
+                    <div
+                        class="position-absolute top-10 start-50 translate-middle w-100 justify-content-center align-items-center card-blog">
+                        <h2 class="text-center heading-card py-3">Creating Streamlined Safeguarding Processes with
+                            OneRen.</h2>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a class="fw-bold me-2 text-custommer px-3 py-5 text-success fs-3 fw-bolder">Read More</a>
+                            <img src="./img/arrow-right.svg" alt="Arrow Right" class="arrow-icon" width="20px"
+                                height="20px">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 position-relative justify-content-center align-items-center"
+                    style="margin-bottom: 150px;">
+                    <div class="image-container text-center">
+                        <img src="./img/image2.png" alt="" class="img-fluid fixed-size-img" />
+                    </div>
+                    <div
+                        class="position-absolute top-10 start-50 translate-middle w-100 justify-content-center align-items-center card-blog">
+                        <h2 class="text-center heading-card py-3">Creating Streamlined Safeguarding Processes with
+                            OneRen.</h2>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a class="fw-bold me-2 text-custommer px-3 py-5 text-success fs-3 fw-bolder">Read More</a>
+                            <img src="./img/arrow-right.svg" alt="Arrow Right" class="arrow-icon" width="20px"
+                                height="20px">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 position-relative justify-content-center align-items-center"
+                    style="margin-bottom: 150px;">
+                    <div class="image-container text-center">
+                        <img src="./img/image3.png" alt="" class="img-fluid fixed-size-img" />
+                    </div>
+                    <div
+                        class="position-absolute top-10 start-50 translate-middle w-100 justify-content-center align-items-center card-blog">
+                        <h2 class="text-center heading-card py-3">Creating Streamlined Safeguarding Processes with
+                            OneRen.</h2>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a class="fw-bold me-2 text-custommer px-3 py-5 text-success fs-3 fw-bolder">Read More</a>
+                            <img src="./img/arrow-right.svg" alt="Arrow Right" class="arrow-icon" width="20px"
+                                height="20px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="custom-section py-5" style="background: #F5F7FA;min-height: 236px;">
+        <div class="container d-flex flex-column justify-content-center align-items-center h-100 py-5">
+            <div class="text-center mb-4">
+                <h1 class="custom-heading">Pellentesque suscipit fringilla libero eu.</h1>
+            </div>
+            <div>
+                <a href="#!" class="btn btn-success fs-3 border py-3 px-5 d-flex align-items-center">
+                    Get a Demo
+                    <i class="bi bi-arrow-right ms-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="d-flex align-items-center">
+                    <img src="./img/logo-no-tite.svg" class="img-fluid"/>
+                    <h3 class="fs-2">Nexcent</h3>
+                </div>
+                <div class="py-5 fs-6">
+                    <p>&copy; 2020 Nexcent Ltd.<br>All rights reserved</p>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-dribbble"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <h5 class="fs-2">Company</h5>
+                </div>
+                <ul class="list-unstyled">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <div>
+                    <h5 class="fs-2">Support</h5>
+                </div>
+                <ul class="list-unstyled">
+                    <li><a href="#">Help center</a></li>
+                    <li><a href="#">Terms of service</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Status</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3">
+                <div>
+                    <h5 class="fs-2">Stay up to date</h5>
+                </div>
+                <form>
+                <div class="position-relative">
+                    <input type="email" class="form-control email-input" placeholder="Your email address" aria-label="Email">
+                    <button class="btn position-absolute top-50 end-0 translate-middle-y me-2 bg-transparent border-0">
+                        <i class="bi bi-envelope text-muted"></i>
+                    </button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <p class="text-center fs-5 pt-5 mb-0">Copyright by: Nguyen Duc Tuan</p>
+</footer>
+
+
+
+</body>
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.js"></script>
